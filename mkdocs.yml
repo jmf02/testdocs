@@ -1,6 +1,26 @@
 site_name: "TestDocs"
+
 nav:
-  - Home: index.md
+  - Accueil: index.md
+  - Introduction:
+      - Vue d'ensemble: introduction/overview.md
+      - Glossaire: introduction/glossary.md
+  - Architecture:
+      - Architecture système: architecture/system-architecture.md
+      - Composants: architecture/components.md
+      - Flux de données: architecture/data-flow.md
+  - Utilisation:
+      - Bien démarrer: usage/getting-started.md
+      - Configuration: usage/configuration.md
+      - Dépannage: usage/troubleshooting.md
+  - Développement:
+      - Environnement: development/setup.md
+      - Règles de code: development/coding-guidelines.md
+      - Tests: development/testing.md
+  - Opérations:
+      - Déploiement: operations/deployment.md
+      - Monitoring: operations/monitoring.md
+      - Maintenance: operations/maintenance.md
 
 plugins:
   - techdocs-core
