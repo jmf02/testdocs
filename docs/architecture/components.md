@@ -1,3 +1,3 @@
 # Composants
 
-Liste et description des composants principaux du système.
+Liste et description des composants principaux du système JMF.
